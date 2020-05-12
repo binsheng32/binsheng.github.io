@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+
+/*parallex effect*/
+body{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url("image1.jpg");
+	background-repeat:no-repeat;
+	
+	background-size: cover;
+	background-position: 50% 20%;
+	/*remember1*/
+	background-attachment: fixed;
+	position: relative;	
+}
+
+body span{
+		
+	border:1px solid white;
+	
+}
+
+.jumbotron{
+	background-color:transparent; 
+	text-align:left;
+	margin:10% 0 0 10%;
+
+
+
+}
+.navbar{
+	background-color:transparent;
+	/*remember3 */
+	border-color: transparent;
+	
+}
+
+
+
+#h1{
+	color: white;
+	/*remember4*/
+	text-shadow: 0 4px 3px rgba(0,0,0,0.2),
+				 0 8px 13px rgba(0,0,0,0.2),
+				 0 18px 23px rgba(0,0,0,0.2);
+
+}
+.btn{
+	text-shadow: 0 4px 3px rgba(0,0,0,0.2),
+				 0 8px 13px rgba(0,0,0,0.1),
+				 0 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.jumbotron a:hover{
+	background-color: transparent;
+}
+
+
+.brand{
+
+	font-family: 'Lobster Two', cursive;
+	color: white;
+	font-size: 40px;
+	margin-left: 40px;
+	margin-top: 8px;
+		
+
+}
+a{
+	color: orange;
+	font-family: lato;
+	font-weight: bold;
+
+
+}
+
+/*responsive*/
+
+.layer1{
+	background-color: rgba(248, 247, 216, 0.9);
+    position: absolute;
+    top: 590px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+}
+.wrapper{
+	
+	
+}
+.img-info{
+	width: 100%;
+}
+
+.img-info h2 {
+	
+	padding: 30px 30px 20px;
+	font-family: arial;
+	font-size: 20px;
+	color: rgb(179, 179, 0,1);
+	font-weight: bold;
+				 
+	
+
+}
+
+.img-info h1 {
+	
+	padding: 30px 30px 20px;
+	font-family: arial;
+	font-size: 35px;
+	color: black;
+	
+
+}
+
+
+.img-info p{
+	
+	padding: 0px 30px 20px;
+	font-family: arial;
+	font-size: 16px;
+	color: black;
+	
+
+}
+
+.img-me{
+	width: 100%;
+	margin-top: 50px;
+	
+}
